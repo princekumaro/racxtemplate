@@ -16,7 +16,7 @@ export default function Service({ data }) {
           </p>
         </Fade>
 
-        <div className="grid grid-rows-3 px-10 gap-8 sm:grid-cols-3 sm:grid-rows-1 sm:gap-6 xl:gap-16">
+        <div className="grid grid-rows-2 px-72 gap-12 sm:grid-cols-2 sm:grid-rows-1 sm:gap-18 xl:gap-20">
           {
                         data.map((item, index) => (
                           <Fade bottom delay={500 * index}>
